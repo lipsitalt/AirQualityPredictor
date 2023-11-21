@@ -42,8 +42,6 @@ The project utilizes air quality data extracted from 20 stations in Delhi for th
 - `Benzene`: Concentration of Benzene in the air.
 - `Toluene`: Concentration of Toluene in the air.
 - `Xylene`: Concentration of Xylene in the air.
-- `AQI`: Air Quality Index, a numerical indicator of air quality.
-- `AQI_Category`: Categorization of AQI into different air quality levels.
 
 ## Methodology
 
