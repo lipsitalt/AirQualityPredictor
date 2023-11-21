@@ -5,7 +5,7 @@
   <br>
 </p>
 
-**Abstract**
+## **Abstract**
 The survival of mankind is intricately linked to the quality of air. However, consistent developments in various sectors of modern human society have adversely affected air quality. Daily industrial, transport, and domestic activities release hazardous pollutants into the environment. Monitoring and predicting air quality have become essential, especially in developing countries like India. This project investigates air quality data from 20 stations in Delhi for the years 2018 and 2019, employing machine learning techniques for efficient analysis and prediction.
 
 ## Introduction
