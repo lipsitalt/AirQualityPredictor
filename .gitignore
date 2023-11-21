@@ -1,3 +1,7 @@
+# Ignore raw data file in huge size
+data/raw/
+iframe_figures/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
