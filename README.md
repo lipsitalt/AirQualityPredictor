@@ -74,4 +74,3 @@ This project aims to contribute to the analysis and prediction of air quality in
 
 Feel free to explore the code and datasets in this repository to gain a deeper understanding of the methodologies and findings. Contributions and suggestions are welcome. Together, we can work towards a cleaner and healthier environment.
 
-## References
