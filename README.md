@@ -48,11 +48,11 @@ The project utilizes air quality data extracted from 20 stations in Delhi for th
 | AT (degree C)             | Ambient Temperature in degrees Celsius                      | Numeric    |
 | RF (mm)                   | Rainfall in millimeters                                     | Numeric    |
 | SR (W/mt2)                | Solar Radiation in Watts per square meter                    | Numeric    |
-| AQI                       | Air Quality Index, a measure of overall air quality         | Numeric    |
-| y_AQI                     | Target variable representing the predicted Air Quality Index| Numeric    |
-| latitude                  | Latitude coordinates of the monitoring station               | Numeric    |
-| longitude                 | Longitude coordinates of the monitoring station              | Numeric    |
 | Xylene (ug/m3)           | Concentration of Xylene in the air                            | Numeric    |
+
+| **Trget**              | **Description**                                             | **Type**   |
+|---------------------------|-------------------------------------------------------------|------------|
+| y_AQI                     | Target variable representing the predicted Air Quality Index| Numeric    |
 
 
 ## Methodology
