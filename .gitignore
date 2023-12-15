@@ -1,4 +1,5 @@
 # Ignore raw data file in huge size
+data/generated
 data/raw/
 iframe_figures/
 

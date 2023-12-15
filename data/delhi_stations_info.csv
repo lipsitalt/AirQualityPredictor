@@ -1,0 +1,41 @@
+file_name,state,city,agency,station_location,start_month,start_month_num,start_year,latitude,longitude
+DL001,Delhi,Delhi,CPCB,"ITO, Delhi",January,1,2010,28.628624,77.241060
+DL002,Delhi,Delhi,CPCB,"Shadipur, Delhi",January,1,2010,28.6514781,77.1473105
+DL003,Delhi,Delhi,CPCB,"Sirifort, Delhi",January,1,2010,28.5504249,77.2159377
+DL004,Delhi,Delhi,CPCB,"NSIT Dwarka, Delhi",January,1,2010,28.60909,77.0325413
+DL005,Delhi,Delhi,CPCB,"IHBAS, Dilshad Garden, Delhi",January,1,2010,28.6811736,77.3025234
+DL006,Delhi,Delhi,CPCB,"DTU, Delhi",January,1,2010,28.7500499,77.1112615
+DL007,Delhi,Delhi,IMD,"Burari Crossing, Delhi",March,3,2010,28.7256504,77.2011573
+DL008,Delhi,Delhi,IMD,"North Campus, DU, Delhi",March,3,2010,28.6573814,77.1585447
+DL009,Delhi,Delhi,IMD,"Pusa, Delhi",May,5,2010,28.636110,77.173332
+DL010,Delhi,Delhi,IMD,"CRRI Mathura Road, Delhi",August,8,2010,28.5512005,77.2735737
+DL011,Delhi,Delhi,IMD,"Aya Nagar, Delhi",September,9,2010,28.4706914,77.1099364
+DL012,Delhi,Delhi,DPCC,"Mandir Marg, Delhi",May,5,2011,28.636429,77.201067
+DL013,Delhi,Delhi,DPCC,"R K Puram, Delhi",May,5,2011,28.563262,77.186937
+DL014,Delhi,Delhi,DPCC,"Punjabi Bagh, Delhi",June,6,2011,28.674045,77.131023
+DL015,Delhi,Delhi,DPCC,"Anand Vihar, Delhi",August,8,2012,28.647622,77.3158090
+DL016,Delhi,Delhi,IMD,"IGI Airport (T3), Delhi",December,12,2013,28.5627763,77.1180053
+DL017,Delhi,Delhi,IMD,"Lodhi Road, Delhi",January,1,2014,28.5918245,77.2273074
+DL018,Delhi,Delhi,CPCB,"East Arjun Nagar, Delhi",November,11,2017,28.656109807045176,77.29509195369043
+DL019,Delhi,Delhi,DPCC,"Okhla Phase 2, Delhi",February,2,2018,28.54239602358879,77.27894747134216
+DL020,Delhi,Delhi,DPCC,"Wazirpur, Delhi",February,2,2018,28.699793,77.165453
+DL021,Delhi,Delhi,DPCC,"Najafgarh, Delhi",February,2,2018,28.570173,76.933762
+DL022,Delhi,Delhi,DPCC,"Narela, Delhi",February,2,2018,28.822836,77.101981
+DL023,Delhi,Delhi,DPCC,"Sonia Vihar, Delhi",February,2,2018,28.710508,77.249485
+DL024,Delhi,Delhi,DPCC,"Rohini, Delhi",February,2,2018,28.732528,77.119920
+DL025,Delhi,Delhi,DPCC,"Nehru Nagar, Delhi",February,2,2018,28.567890,77.250515
+DL026,Delhi,Delhi,DPCC,"Vivek Vihar, Delhi",February,2,2018,28.672342,77.315260
+DL027,Delhi,Delhi,DPCC,"Patparganj, Delhi",February,2,2018,28.623763,77.287209
+DL028,Delhi,Delhi,DPCC,"Dr. Karni Singh Shooting Range, Delhi",March,3,2018,28.498571,77.264840
+DL029,Delhi,Delhi,DPCC,"Major Dhyan Chand National Stadium, Delhi",March,3,2018,28.611281,77.237738
+DL030,Delhi,Delhi,DPCC,"Dwarka Sector 8, Delhi",March,3,2018,28.569289561188153,77.07224391498204
+DL031,Delhi,Delhi,DPCC,"Ashok Vihar, Delhi",March,3,2018,28.695381,77.181665
+DL032,Delhi,Delhi,DPCC,"Jawaharlal Nehru Stadium, Delhi",March,3,2018,28.580280,77.233829
+DL033,Delhi,Delhi,DPCC,"Jahangirpuri, Delhi",March,3,2018,28.732820,77.170633
+DL034,Delhi,Delhi,DPCC,"Sri Aurobindo Marg, Delhi",July,7,2018,28.531346,77.190156
+DL035,Delhi,Delhi,DPCC,"Bawana, Delhi",July,7,2018,28.776,77.051074
+DL036,Delhi,Delhi,DPCC,"Mundka, Delhi",July,7,2018,28.684678,77.076574
+DL037,Delhi,Delhi,DPCC,"Pusa, Delhi",July,7,2018,28.639652,77.146275
+DL038,Delhi,Delhi,DPCC,"Alipur, Delhi",November,11,2018,28.815329,77.153010
+DL039,Delhi,Delhi,IITM,"Lodhi Road, Delhi",November,11,2020,28.588333,77.221667
+DL040,Delhi,Delhi,IITM,"Chandni Chowk, Delhi",November,11,2020,28.656756,77.227234
