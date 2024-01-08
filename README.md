@@ -14,11 +14,14 @@ Energy consumption in modern human activities results in anthropogenic sources o
 The air quality data utilized in this project is sourced from [Kaggle](https://www.kaggle.com/datasets/abhisheksjha/time-series-air-quality-data-of-india-2010-2023), focusing on  monitoring stations in Delhi for the years 2021 to 2023. This dataset provides detailed measurements of pollutants, weather data, and air quality parameters, contributing to a comprehensive analysis of air quality trends in the region.
 
 =============================================================
+
 Project Organization
+
 =============================================================
+
 ├── README.md                           <- The main README document for Data Scientists/ Analysts utilizing this project.
 |
-├── delhi_all_stations_hourly_2010_2023 (Kaggle](https://www.kaggle.com/datasets/abhisheksjha/time-series-air-quality-data-of-india-2010-2023)
+├── delhi_all_stations_hourly_2010_2023  <- Kaggle link
 |
 ├── Presentation_Sprint1_EDA.pdf                <- Initial presentation of the project including Cleaning & EDA
 ├── presentation_Sprint2_baseline_models.pdf    <- Second presentation of the project including baseline models
@@ -35,8 +38,8 @@ Project Organization
 |   ├── 4.5_model_LSTM.ipynb                  <- Project notebook 4.5 - LSTM modeling
 |
 ├── app
-|   ├── xgb_aqi_model____no_rolling_window_data.pkl                             <- XGBoost model
-|   ├── aqi_predictor_app.py           <- Streamlit python code
+|   ├── xgb_aqi_model____no_rolling_window_data.pkl    <- XGBoost model
+|   ├── aqi_predictor_app.py                           <- Streamlit python code
 
 ## Objectives
 - Analyze air quality data from 25 stations in Delhi (2021-2023).
