@@ -18,6 +18,7 @@ The air quality data utilized in this project is sourced from [Kaggle](https://w
 Project Organization
 
 =============================================================
+|
 ├── README.md <- The main README document for Data Scientists/Analysts utilizing this project.
 |
 ├── presentations <- Directory for project presentations
