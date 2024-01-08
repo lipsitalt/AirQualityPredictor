@@ -8,21 +8,21 @@
 ## Abstract
 The quality of air directly impacts the survival of mankind, and with the continuous developments in various sectors, air quality has been adversely affected. This project focuses on investigating air quality data from 40 recording stations in Delhi for the years 2013 to 2023, employing machine learning techniques for efficient analysis and prediction.
 
-=============================================================
+**************************************************************
 
 ## Introduction
 
-=============================================================
+**************************************************************
 
 Energy consumption in modern human activities results in anthropogenic sources of air pollution. Various pollutants, including CO, CO2, Particulate Matter (PM), NO2, SO2, O3, NH3, Pb, are released into the environment, posing health risks and contributing to environmental issues. Delhi faces significant air quality challenges, impacting public health and economic growth.
 
 The air quality data utilized in this project is sourced from [Kaggle](https://www.kaggle.com/datasets/abhisheksjha/time-series-air-quality-data-of-india-2010-2023), focusing on  monitoring stations in Delhi for the years 2021 to 2023. This dataset provides detailed measurements of pollutants, weather data, and air quality parameters, contributing to a comprehensive analysis of air quality trends in the region.
 
-=============================================================
+**************************************************************
 
 ## Project Organization
 
-=============================================================
+**************************************************************
 
 |-- README.md <- The main README document for Data Scientists/Analysts utilizing this project.
 |
@@ -45,22 +45,21 @@ The air quality data utilized in this project is sourced from [Kaggle](https://w
 | |-- xgb_aqi_model.pkl <- XGBoost model
 | |-- aqi_predictor_app.py <- Streamlit python code
 
-=============================================================
+**************************************************************
 
 ## Table of contents
 
-=============================================================
-
+**************************************************************
 - Air Quality Dataset
 - Data Download, Preprocessing & EDA
 - Modelling
 - Conclusions
 
-=============================================================
+**************************************************************
 
 ## Air Quality Dataset
 
-=============================================================
+**************************************************************
 
 ## Data Dictionary
 The project utilizes air quality data extracted from 20 stations in Delhi for the years 2018 and 2019. The dataset comprises 12 features with instances recorded at each station.
@@ -113,11 +112,11 @@ The project utilizes air quality data extracted from 20 stations in Delhi for th
 
 These insights will guide our subsequent modeling and analysis efforts, helping us make informed decisions based on the patterns and relationships identified during the EDA process.
 
-=============================================================
+**************************************************************
 
 ## Modeling
 
-=============================================================
+**************************************************************
 
 ### Machine Learning Models:
 - Baseline linear regression model (PMAE: 20.04%)
@@ -131,11 +130,11 @@ These insights will guide our subsequent modeling and analysis efforts, helping 
 ## Results and Conclusion
 - Evaluated and compared model performances.
 - Determined the most effective model for AQI prediction as XGBoost with the least Percentage Mean Absolute Error(PMAE: 15.25%)
-=============================================================
+**************************************************************
 
 ## Conclusion
 
-=============================================================
+**************************************************************
 
 This project aims to contribute to the analysis and prediction of air quality in Delhi. The utilization of machine learning techniques and comprehensive data analysis provides valuable insights into the factors influencing air pollution. The comparison of different models aids in identifying the most effective approach for AQI prediction, offering a potential solution to address air quality challenges.
 
