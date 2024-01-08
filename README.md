@@ -91,11 +91,11 @@ The project utilizes air quality data extracted from 20 stations in Delhi for th
 |---------------------------|-------------------------------------------------------------|------------|
 | <span style="color: #FF0000;">y_AQI</span>     | Target variable indicating the Air Quality Index forecast for the next 24 hours| Numeric    |
 
-=============================================================
+**************************************************************
 
 ## Data Preparation & Exploratory Data Analysis
 
-=============================================================
+**************************************************************
 
 ### Data Preprocessing:
 - Clean and preprocess the dataset.
