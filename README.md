@@ -18,25 +18,6 @@ The air quality data utilized in this project is sourced from [Kaggle](https://w
 Project Organization
 
 =============================================================
-├── README.md                           <- The main README document for developers utilizing this project.
-|
-├── data.csv (https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset)   
-├── data_for_modeling.csv   <- Processed data obtained from EDA
-|
-├── Presentation_EDA.pdf                <- Initial presentation of the project including EDA
-├── presentation_baseline_models.pdf    <- Second presentation of the project including baseline models
-├── Presentation_final.pdf              <- Final presentation of the project 
-|
-├── notebooks
-|   ├── EDA.ipynb                          <- Project notebook 1 - data preparation and exploration
-|   ├── baseline_models.ipynb              <- Project notebook 2 - baseline modeling
-|   ├── modeling-total-rentals.ipynb       <- Project notebook 3 - final models for total rentals
-|   ├── modeling-casual-rentals.ipynb      <- Project notebook 3 - final models for casual rentals
-|   ├── modeling-registered-rentals.ipynb  <- Project notebook 3 - final models for registered rentals
-|
-├── app
-|   ├── GB.pkl                             <- Gradient Boosting model
-|   ├── App_Rental_Prediction.py           <- Streamlit python code
 |
 ├── README.md <- The main README document for Data Scientists/Analysts utilizing this project.
 |
@@ -103,8 +84,6 @@ The project utilizes air quality data extracted from 20 stations in Delhi for th
 ### Exploratory Data Analysis (EDA):
 - Gain insights into hidden patterns in the dataset.
 - Identify pollutants directly affecting the AQI.
-### Data Resampling:
-- Address data imbalance using resampling techniques.
 ### Machine Learning Models:
 - Initiated with a foundational linear regression model (R-squared: 0.79).
 - Explored a baseline decision tree with a max depth of 3 (R-squared: 0.71).
@@ -115,13 +94,15 @@ The project utilizes air quality data extracted from 20 stations in Delhi for th
 - Evaluated and compared model performances.
 - Determined the most effective model for AQI prediction.
 
-## Next Steps
-- Optimize missing value handling by collecting data from nearby stations.
-- Implement Time Series Modeling with ARIMA.
-- Explore advanced techniques like XGBoost and LSTM.
-- Conduct rigorous Model Evaluation.
-- Apply Principal Component Analysis (PCA) to streamline features.
-- Perform a detailed Feature Importance Analysis.
+## Refining the approach for future iterations:
+
+- Treating individual station data independently for a granular understanding of local variations.
+- Incorporating station distances for spatial dependencies.
+- Forecasting AQI differences for nuanced interpretations.
+- Extending the prediction horizon from one to seven days.
+- Exploring advanced models like neural network LSTM.
+- Incorporating external factors such as traffic patterns and industrial activities.
+- Emphasizing regular model updates based on new data for continued effectiveness.
 
 ## Conclusion
 This project aims to contribute to the analysis and prediction of air quality in Delhi. The utilization of machine learning techniques and comprehensive data analysis provides valuable insights into the factors influencing air pollution. The comparison of different models aids in identifying the most effective approach for AQI prediction, offering a potential solution to address air quality challenges.
