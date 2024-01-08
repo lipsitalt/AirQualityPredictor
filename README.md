@@ -51,10 +51,10 @@ The air quality data utilized in this project is sourced from [Kaggle](https://w
 
 =============================================================
 
-Air Quality Dataset
-Data Download, Preprocessing & EDA
-Modelling
-Conclusions
+- Air Quality Dataset
+- Data Download, Preprocessing & EDA
+- Modelling
+- Conclusions
 
 =============================================================
 
