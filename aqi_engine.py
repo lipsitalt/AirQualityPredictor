@@ -23,14 +23,14 @@ Fill Missing Values with Rolling Average:
 # Function to fill missing values with the past 'x' hours average
 def fill_missing_with_average(df, rolling_hours, columns):
     # Sort the DataFrame by 'Datetime' to apply rolling window across stations, and finally Reset the index
-    df = df.sort_values(by=['Datetime', 'StationId'])
+    df = df.sort_values(by=['Datetime'])
     df = df.reset_index(drop=True)
 
-    distinct_station_count = df['StationId'].nunique()
+    distinct_station_count = 1
     rolling_window = rolling_hours * distinct_station_count
 
     for column in columns:
-        # Create a new column with the past 10 hours' average
+        # Create a new column with the past "rolling_window" hours' average
         df[column+'_avg'] = df[column].rolling(window=rolling_window, min_periods=1).mean()
         # Fill missing values in the given "column" from "column_avg" if "column" value is missing
         # df[column].fillna(df[column+'_avg'], inplace=True)
@@ -41,6 +41,8 @@ def fill_missing_with_average(df, rolling_hours, columns):
         df = df.drop(columns=[column+'_avg'])
 
     return df
+
+
 """
 We calculate the AQI, taking into account rolling averages, sub-indices, and data availability checks for various air quality parameters. The sub-indices are then used to determine the overall AQI, providing a single metric for air quality assessment.
 
@@ -77,19 +79,19 @@ def calculate_aqi(df):
     """
 
     # Sort the DataFrame by 'StationId' first and then 'Datetime' for AQI calculation, and finally Reset the index
-    df = df.sort_values(by=['StationId', 'Datetime'])
+    df = df.sort_values(by=['Datetime'])
     df = df.reset_index(drop=True)
 
     # ====================================================================
     # 1. Calculate rolling window average values
     # ====================================================================
-    df["PM2.5_24hr_avg"] = df.groupby("StationId")["PM2.5 (ug/m3)"].rolling(window=24, min_periods=16).mean().values
-    df["PM10_24hr_avg"] = df.groupby("StationId")["PM10 (ug/m3)"].rolling(window=24, min_periods=16).mean().values
-    df["SO2_24hr_avg"] = df.groupby("StationId")["SO2 (ug/m3)"].rolling(window=24, min_periods=16).mean().values
-    df["NOx_24hr_avg"] = df.groupby("StationId")["NOx (ug/m3)"].rolling(window=24, min_periods=16).mean().values
-    df["NH3_24hr_avg"] = df.groupby("StationId")["NH3 (ug/m3)"].rolling(window=24, min_periods=16).mean().values
-    df["CO_8hr_max"] = df.groupby("StationId")["CO (ug/m3)"].rolling(window=8, min_periods=1).max().values
-    df["O3_8hr_max"] = df.groupby("StationId")["Ozone (ug/m3)"].rolling(window=8, min_periods=1).max().values
+    df["PM2.5_24hr_avg"] = df["PM2.5 (ug/m3)"].rolling(window=24, min_periods=16).mean().values
+    df["PM10_24hr_avg"] = df["PM10 (ug/m3)"].rolling(window=24, min_periods=16).mean().values
+    df["SO2_24hr_avg"] = df["SO2 (ug/m3)"].rolling(window=24, min_periods=16).mean().values
+    df["NOx_24hr_avg"] = df["NOx (ug/m3)"].rolling(window=24, min_periods=16).mean().values
+    df["NH3_24hr_avg"] = df["NH3 (ug/m3)"].rolling(window=24, min_periods=16).mean().values
+    df["CO_8hr_max"] = df["CO (ug/m3)"].rolling(window=8, min_periods=1).max().values
+    df["O3_8hr_max"] = df["Ozone (ug/m3)"].rolling(window=8, min_periods=1).max().values
 
     # ====================================================================
     # 2. Sub-Index calculation
@@ -135,6 +137,7 @@ def calculate_aqi(df):
     df = df.drop(columns=temp_columns)
 
     return df
+
 
 ## PM2.5 Sub-Index calculation
 def get_PM25_subindex(x):
