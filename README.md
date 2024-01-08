@@ -18,6 +18,25 @@ The air quality data utilized in this project is sourced from [Kaggle](https://w
 Project Organization
 
 =============================================================
+├── README.md                           <- The main README document for developers utilizing this project.
+|
+├── data.csv (https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset)   
+├── data_for_modeling.csv   <- Processed data obtained from EDA
+|
+├── Presentation_EDA.pdf                <- Initial presentation of the project including EDA
+├── presentation_baseline_models.pdf    <- Second presentation of the project including baseline models
+├── Presentation_final.pdf              <- Final presentation of the project 
+|
+├── notebooks
+|   ├── EDA.ipynb                          <- Project notebook 1 - data preparation and exploration
+|   ├── baseline_models.ipynb              <- Project notebook 2 - baseline modeling
+|   ├── modeling-total-rentals.ipynb       <- Project notebook 3 - final models for total rentals
+|   ├── modeling-casual-rentals.ipynb      <- Project notebook 3 - final models for casual rentals
+|   ├── modeling-registered-rentals.ipynb  <- Project notebook 3 - final models for registered rentals
+|
+├── app
+|   ├── GB.pkl                             <- Gradient Boosting model
+|   ├── App_Rental_Prediction.py           <- Streamlit python code
 |
 ├── README.md <- The main README document for Data Scientists/Analysts utilizing this project.
 |
