@@ -51,8 +51,8 @@ The air quality data utilized in this project is sourced from [Kaggle](https://w
 
 =============================================================
 
-Bike Sharing Dataset
-Data Download, Cleaning & EDA
+Air Quality Dataset
+Data Download, Preprocessing & EDA
 Modelling
 Conclusions
 
