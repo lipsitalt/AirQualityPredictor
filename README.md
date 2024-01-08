@@ -18,28 +18,26 @@ The air quality data utilized in this project is sourced from [Kaggle](https://w
 Project Organization
 
 =============================================================
-
-├── README.md                           <- The main README document for Data Scientists/ Analysts utilizing this project.
+├── README.md <- The main README document for Data Scientists/Analysts utilizing this project.
 |
-├── delhi_all_stations_hourly_2010_2023  <- Kaggle link
+├── presentations <- Directory for project presentations
+| ├── Sprint1_EDA.pdf <- Initial presentation of the project including Cleaning & EDA
+| ├── Sprint2_baseline_models.pdf <- Second presentation of the project including baseline models
+| ├── Sprint2_final.pdf <- Final presentation of the project
 |
-├── Presentation_Sprint1_EDA.pdf                <- Initial presentation of the project including Cleaning & EDA
-├── presentation_Sprint2_baseline_models.pdf    <- Second presentation of the project including baseline models
-├── Presentation_Sprint2_final.pdf              <- Final presentation of the project 
+├── notebooks <- Directory for project notebooks
+| ├── 1_data_preparation.ipynb <- Project notebook 1 - data preparation
+| ├── 2_data_exploration.ipynb <- Project notebook 2 - data exploration
+| ├── 3_baselinemodelling.ipynb <- Project notebook 3 - baseline modeling
+| ├── 4.1_model_randomforest.ipynb <- Project notebook 4.1 - randomforest modeling
+| ├── 4.2_model_xgboost.ipynb <- Project notebook 4.2 - xgboost modeling
+| ├── 4.3_model_ARIMA.ipynb <- Project notebook 4.3 - ARIMA modeling
+| ├── 4.4_model_fb_prophet.ipynb <- Project notebook 4.4 - prophet modeling
+| ├── 4.5_model_LSTM.ipynb <- Project notebook 4.5 - LSTM modeling
 |
-├── notebooks
-|   ├── 1_data_preparation.ipynb              <- Project notebook 1 - data preparation 
-|   ├── 2_data_exploration.ipynb              <- Project notebook 2 - data exploration
-|   ├── 3_baselinemodelling.ipynb             <- Project notebook 3 - baseline modeling
-|   ├── 4.1_model_randomforest.ipynb          <- Project notebook 4.1 - randomforest modeling
-|   ├── 4.2_model_xgboost.ipynb               <- Project notebook 4.2 - xgboost modeling
-|   ├── 4.3_model_ARIMA.ipynb                 <- Project notebook 4.3 - ARIMA modeling
-|   ├── 4.4_model_fb_prophet.ipynb            <- Project notebook 4.4 - prophet modeling
-|   ├── 4.5_model_LSTM.ipynb                  <- Project notebook 4.5 - LSTM modeling
-|
-├── app
-|   ├── xgb_aqi_model____no_rolling_window_data.pkl    <- XGBoost model
-|   ├── aqi_predictor_app.py                           <- Streamlit python code
+├── app <- Directory for the app and model files
+| ├── xgb_aqi_model.pkl <- XGBoost model
+| ├── aqi_predictor_app.py <- Streamlit python code
 
 ## Objectives
 - Analyze air quality data from 25 stations in Delhi (2021-2023).
