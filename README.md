@@ -48,7 +48,7 @@ The project utilizes air quality data extracted from 20 stations in Delhi for th
 
 | **Trget**              | **Description**                                             | **Type**   |
 |---------------------------|-------------------------------------------------------------|------------|
-| y_AQI                     | Target variable representing the predicted Air Quality Index| Numeric    |
+| y_AQI                     | Target variable indicating the Air Quality Index forecast for the next 24 hours| Numeric    |
 
 ## Methodology
 ### Data Preprocessing:
