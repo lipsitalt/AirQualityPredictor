@@ -6,83 +6,57 @@
 </p>
 
 ## Abstract
-The quality of air directly impacts the survival of mankind, and with the continuous developments in various sectors, air quality has been adversely affected. This project focuses on investigating air quality data from 25 stations in Delhi for the years 2021 to 2023, employing machine learning techniques for efficient analysis and prediction.
+The quality of air directly impacts the survival of mankind, and with the continuous developments in various sectors, air quality has been adversely affected. This project focuses on investigating air quality data from 40 recording stations in Delhi for the years 2013 to 2023, employing machine learning techniques for efficient analysis and prediction.
+
+**************************************************************
 
 ## Introduction
+
+**************************************************************
+
 Energy consumption in modern human activities results in anthropogenic sources of air pollution. Various pollutants, including CO, CO2, Particulate Matter (PM), NO2, SO2, O3, NH3, Pb, are released into the environment, posing health risks and contributing to environmental issues. Delhi faces significant air quality challenges, impacting public health and economic growth.
 
 The air quality data utilized in this project is sourced from [Kaggle](https://www.kaggle.com/datasets/abhisheksjha/time-series-air-quality-data-of-india-2010-2023), focusing on  monitoring stations in Delhi for the years 2021 to 2023. This dataset provides detailed measurements of pollutants, weather data, and air quality parameters, contributing to a comprehensive analysis of air quality trends in the region.
 
-=============================================================
-
-Project Organization
-
-=============================================================
-|
-├── README.md <- The main README document for Data Scientists/Analysts utilizing this project.
-|
-├── presentations <- Directory for project presentations
-| ├── Sprint1_EDA.pdf <- Initial presentation of the project including Cleaning & EDA
-| ├── Sprint2_baseline_models.pdf <- Second presentation of the project including baseline models
-| ├── Sprint2_final.pdf <- Final presentation of the project
-|
-├── notebooks <- Directory for project notebooks
-| ├── 1_data_preparation.ipynb <- Project notebook 1 - data preparation
-| ├── 2_data_exploration.ipynb <- Project notebook 2 - data exploration
-| ├── 3_baselinemodelling.ipynb <- Project notebook 3 - baseline modeling
-| ├── 4.1_model_randomforest.ipynb <- Project notebook 4.1 - randomforest modeling
-| ├── 4.2_model_xgboost.ipynb <- Project notebook 4.2 - xgboost modeling
-| ├── 4.3_model_ARIMA.ipynb <- Project notebook 4.3 - ARIMA modeling
-| ├── 4.4_model_fb_prophet.ipynb <- Project notebook 4.4 - prophet modeling
-| ├── 4.5_model_LSTM.ipynb <- Project notebook 4.5 - LSTM modeling
-|
-├── app <- Directory for the app and model files
-| ├── xgb_aqi_model.pkl <- XGBoost model
-| ├── aqi_predictor_app.py <- Streamlit python code
-
-=============================================================
+**************************************************************
 
 ## Project Organization
 
-=============================================================
-|
-├── README.md <- The main README document for Data Scientists/Analysts utilizing this project.
-|
-├── presentations <- Directory for project presentations
-| ├── Sprint1_EDA.pdf <- Initial presentation of the project including Cleaning & EDA
-| ├── Sprint2_baseline_models.pdf <- Second presentation of the project including baseline models
-| ├── Sprint2_final.pdf <- Final presentation of the project
-|
-├── notebooks <- Directory for project notebooks
-| ├── 1_data_preparation.ipynb <- Project notebook 1 - data preparation
-| ├── 2_data_exploration.ipynb <- Project notebook 2 - data exploration
-| ├── 3_baselinemodelling.ipynb <- Project notebook 3 - baseline modeling
-| ├── 4.1_model_randomforest.ipynb <- Project notebook 4.1 - randomforest modeling
-| ├── 4.2_model_xgboost.ipynb <- Project notebook 4.2 - xgboost modeling
-| ├── 4.3_model_ARIMA.ipynb <- Project notebook 4.3 - ARIMA modeling
-| ├── 4.4_model_fb_prophet.ipynb <- Project notebook 4.4 - prophet modeling
-| ├── 4.5_model_LSTM.ipynb <- Project notebook 4.5 - LSTM modeling
-|
-├── app <- Directory for the app and model files
-| ├── xgb_aqi_model.pkl <- XGBoost model
-| ├── aqi_predictor_app.py <- Streamlit python code
+**************************************************************
 
-=============================================================
+- README.md <- The main README document for Data Scientists/Analysts utilizing this project.
+- presentations <- Directory for project presentations
+  - Sprint1_Presentation.pdf <- Initial presentation of the project including Cleaning & EDA
+  - Sprint2_Presentation.pdf <- Second presentation of the project including baseline models
+  - Sprint2_Presentation.pdf <- Final presentation of the project
+- notebooks <- Directory for project notebooks
+  - 1_data_preparation.ipynb <- Project notebook 1 - data preparation
+  - 2_data_exploration.ipynb <- Project notebook 2 - data exploration
+  - 3_baselinemodelling.ipynb <- Project notebook 3 - baseline modeling
+  - 4.1_model_randomforest.ipynb <- Project notebook 4.1 - randomforest modeling
+  - 4.2_model_xgboost.ipynb <- Project notebook 4.2 - xgboost modeling
+  - 4.3_model_ARIMA.ipynb <- Project notebook 4.3 - ARIMA modeling
+  - 4.4_model_fb_prophet.ipynb <- Project notebook 4.4 - prophet modeling
+  - 4.5_model_LSTM.ipynb <- Project notebook 4.5 - LSTM modeling
+- app <- Directory for the app and model files
+  - xgb_aqi_model.pkl <- XGBoost model
+  - aqi_predictor_app.py <- Streamlit python code
+
+**************************************************************
 
 ## Table of contents
 
-=============================================================
+**************************************************************
+- Air Quality Dataset
+- Data Download, Preprocessing & EDA
+- Modelling
+- Conclusions
 
-Bike Sharing Dataset
-Data Download, Cleaning & EDA
-Modelling
-Conclusions
-
-=============================================================
+**************************************************************
 
 ## Air Quality Dataset
 
-=============================================================
+**************************************************************
 
 ## Data Dictionary
 The project utilizes air quality data extracted from 20 stations in Delhi for the years 2018 and 2019. The dataset comprises 12 features with instances recorded at each station.
@@ -114,11 +88,11 @@ The project utilizes air quality data extracted from 20 stations in Delhi for th
 |---------------------------|-------------------------------------------------------------|------------|
 | <span style="color: #FF0000;">y_AQI</span>     | Target variable indicating the Air Quality Index forecast for the next 24 hours| Numeric    |
 
-=============================================================
+**************************************************************
 
 ## Data Preparation & Exploratory Data Analysis
 
-=============================================================
+**************************************************************
 
 ### Data Preprocessing:
 - Clean and preprocess the dataset.
@@ -135,11 +109,11 @@ The project utilizes air quality data extracted from 20 stations in Delhi for th
 
 These insights will guide our subsequent modeling and analysis efforts, helping us make informed decisions based on the patterns and relationships identified during the EDA process.
 
-=============================================================
+**************************************************************
 
 ## Modeling
 
-=============================================================
+**************************************************************
 
 ### Machine Learning Models:
 - Baseline linear regression model (PMAE: 20.04%)
@@ -153,16 +127,12 @@ These insights will guide our subsequent modeling and analysis efforts, helping 
 ## Results and Conclusion
 - Evaluated and compared model performances.
 - Determined the most effective model for AQI prediction as XGBoost with the least Percentage Mean Absolute Error(PMAE: 15.25%)
-=============================================================
+**************************************************************
 
 ## Conclusion
 
-=============================================================
+**************************************************************
 
 This project aims to contribute to the analysis and prediction of air quality in Delhi. The utilization of machine learning techniques and comprehensive data analysis provides valuable insights into the factors influencing air pollution. The comparison of different models aids in identifying the most effective approach for AQI prediction, offering a potential solution to address air quality challenges.
 
 Feel free to explore the code and datasets in this repository to gain a deeper understanding of the methodologies and findings. Contributions and suggestions are welcome. Together, we can work towards a cleaner and healthier environment.
-
-
-Feel free to explore the code and datasets in this repository to gain a deeper understanding of the methodologies and findings. Contributions and suggestions are welcome. Together, we can work towards a cleaner and healthier environment.
-
