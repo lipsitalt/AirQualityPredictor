@@ -99,7 +99,7 @@ The project utilizes air quality data extracted from 20 stations in Delhi for th
 - Select key features through correlation analysis.
 - Remove outliere
 - Handle missing values
-- 
+  
 ### Exploratory Data Analysis (EDA):
 - Gain insights into hidden patterns(Hourly, Daily, and Yearly seasonalities) in the dataset.
 - Identify pollutants directly affecting the AQI by looking at correlation and hypothesis testing
