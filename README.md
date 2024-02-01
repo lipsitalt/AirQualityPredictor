@@ -124,9 +124,10 @@ These insights will guide our subsequent modeling and analysis efforts, helping 
 - ARIMA (PMAE: 185.00%)
 - SARIMA (PMAE: 186.00%)
 
-## Results and Conclusion
+## Results
 - Evaluated and compared model performances.
 - Determined the most effective model for AQI prediction as XGBoost with the least Percentage Mean Absolute Error(PMAE: 15.25%)
+
 **************************************************************
 
 ## Conclusion
